@@ -8,6 +8,3 @@ enableRobotsTxt = true
 hero   = "graphql-icon.svg"
 navbar = "graphql-rectangle.svg"
 footer = "graphql-icon.svg"
-
-[params.home]
-subtitle = "A vendor-neutral foundation providing unified governance and stewardship of GraphQL"
