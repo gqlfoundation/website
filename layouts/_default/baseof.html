@@ -6,15 +6,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
     {{ partial "css.html" . }}
   </head>
-  <body class="page has-navbar-fixed-top">
-    {{ partial "navbar.html" . }}
-
-    <main class="main">
-      {{ block "main" . }}
-      {{ end }}
-    </main>
-
-    {{ partial "footer.html" . }}
-    {{ partial "javascript.html" . }}
+  <body>
+    {{ block "main" . }}
+    {{ end }}
   </body>
 </html>
